@@ -10,6 +10,7 @@ PKGS=(
 	'brave-bin'
 	'dxvk-bin'
 	'nerd-fonts-fira-code'
+	'corectrl'
 )
 
 yay -S --noconfirm --needed ${PKGS[@]}
@@ -25,6 +26,7 @@ sleep 1
 konsave -a default
 
 ln -s ~/configs/config.fish ~/.config/fish/config.fish
+ln -s ~/configs/init.vim ~/.config/nvim/init.vim
 
 echo -e "\nDone\n"
 exit
