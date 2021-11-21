@@ -23,9 +23,9 @@ konsave -i ~/configs/default.knsv
 sleep 1
 konsave -a default
 
+mkdir ~/.config/fish/
 ln -s ~/configs/config.fish ~/.config/fish/config.fish -f
-mkdir ~/.config/nvim/
-ln -s ~/configs/init.vim ~/.config/nvim/init.vim
+ln -s ~/configs/init.vim ~/.config/nvim/init.vim -f
 
 echo -e "\nDone\n"
 exit
