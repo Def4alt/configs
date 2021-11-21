@@ -15,6 +15,7 @@ PKGS=(
 	'telegram-desktop'
 	'discord'
 	'htop'
+	'plasma-wayland-session'
 )
 
 pacman-mirrors --fasttrack 5 && pacman -Syyu
