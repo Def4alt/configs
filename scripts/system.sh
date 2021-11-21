@@ -16,6 +16,7 @@ PKGS=(
 	'discord'
 	'htop'
 	'plasma-wayland-session'
+	'base-devel'
 )
 
 pacman-mirrors --fasttrack 5 && pacman -Syyu
