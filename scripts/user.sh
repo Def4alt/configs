@@ -26,6 +26,7 @@ sleep 1
 konsave -a default
 
 ln -s ~/configs/config.fish ~/.config/fish/config.fish
+mkdir ~/.config/nvim/
 ln -s ~/configs/init.vim ~/.config/nvim/init.vim
 
 echo -e "\nDone\n"
