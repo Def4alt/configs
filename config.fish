@@ -4,5 +4,7 @@ end
 
 set HISTTIMEFORMAT "%F %T "
 set HISTCONTROL ignoredups
+set -gx EDITOR nvim
+set -gx BROWSER /usr/bin/brave
 
 starship init fish | source
