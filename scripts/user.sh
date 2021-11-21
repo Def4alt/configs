@@ -18,9 +18,6 @@ yay -S --noconfirm --needed ${PKGS[@]}
 
 export PATH=$PATH:~/.local/bin
 
-cd ~
-git clone "https://github.com/Def4alt/configs"
-
 pip install konsave
 konsave -i ~/configs/default.knsv
 sleep 1
