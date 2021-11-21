@@ -11,6 +11,7 @@ PKGS=(
 	'dxvk-bin'
 	'nerd-fonts-fira-code'
 	'corectrl'
+	'spotify'
 )
 
 yay -S --noconfirm --needed ${PKGS[@]}
@@ -25,7 +26,7 @@ konsave -i ~/configs/default.knsv
 sleep 1
 konsave -a default
 
-ln -s ~/configs/config.fish ~/.config/fish/config.fish
+ln -s ~/configs/config.fish ~/.config/fish/config.fish -f
 mkdir ~/.config/nvim/
 ln -s ~/configs/init.vim ~/.config/nvim/init.vim
 

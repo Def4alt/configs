@@ -12,6 +12,8 @@ PKGS=(
 	'winetricks'
 	'lutris'
 	'neovim'
+	'telegram-desktop'
+	'discord'
 )
 
 pacman-mirrors --fasttrack 5 && pacman -Syyu
